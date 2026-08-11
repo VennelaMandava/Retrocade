@@ -1,0 +1,131 @@
+# 🔨 Build Process
+
+The Retrocade was built from the ground up using CAD design, prototyping, CNC machining, woodworking, electronics integration, and finishing.
+
+This folder contains photos documenting the physical construction of the arcade machine.
+
+## 1. CAD Design
+
+We began by designing the arcade cabinet in **Autodesk Fusion**.
+
+The design focused on:
+
+- Accurate cabinet dimensions
+- Two-player functionality
+- Comfortable joystick and button placement
+- Monitor mounting
+- Structural support
+- Efficient use of materials
+
+We revised the CAD design based on feedback before beginning fabrication.
+
+## 2. Prototyping
+
+Before manufacturing the final cabinet, we created prototypes to test our design.
+
+### Scaled Cabinet Prototype
+
+A smaller version of the cabinet was laser cut to test:
+
+- Joint accuracy
+- Structural stability
+- Overall cabinet construction
+
+### Full-Size Control Panel
+
+We also created a full-sized control-panel prototype to test:
+
+- Joystick placement
+- Button placement
+- Component fit
+- Player comfort
+- Two-player spacing
+
+If a problem was found during prototyping, we returned to the CAD model and made revisions.
+
+## 3. CNC Manufacturing
+
+After the design was validated, we generated CNC toolpaths from the CAD model.
+
+The final cabinet pieces were cut from **3/4-inch plywood** using a CNC machine.
+
+The pieces were then prepared for assembly by sanding and cleaning the cut edges.
+
+## 4. Cabinet Assembly
+
+The cabinet pieces were assembled using **wood glue and nails**.
+
+Clamps were used to hold the pieces in alignment while the glue dried.
+
+### Challenges
+
+We encountered several challenges during construction:
+
+| Challenge | Solution |
+|---|---|
+| Oversized pieces | Used clamps to hold pieces in place |
+| Rough edges and corners | Used edge finishing |
+| Limited clamp size | Split assembly across multiple days |
+
+These adjustments allowed us to continue construction while maintaining the stability and alignment of the cabinet.
+
+## 5. Painting & Finishing
+
+After the cabinet was assembled, the wood pieces were:
+
+1. Sanded
+2. Primed
+3. Painted
+4. Decorated
+5. Finished with edge trim
+
+The finishing process was designed to give the machine an authentic retro arcade appearance while also protecting the cabinet edges.
+
+## 6. 3D-Printed Decorations
+
+We created custom 3D-printed decorations for the cabinet, including:
+
+- Tetris
+- Pac-Man
+- Batman
+- RETROCADE lettering
+
+These decorations helped reinforce the nostalgic theme of the project.
+
+## 7. Electronics Integration
+
+After completing the cabinet, we integrated the electronic components.
+
+The Raspberry Pi and other electronics were placed inside the cabinet, while the monitor was mounted to the cabinet's support structure.
+
+The control panel was fitted with:
+
+- Arcade joysticks
+- Push buttons
+- Encoder boards
+
+We also integrated the coin acceptor and other arcade components.
+
+## 8. Final Testing
+
+After the physical construction and electronics were complete, we tested the entire arcade system.
+
+Testing included:
+
+- Raspberry Pi functionality
+- RetroPie startup
+- Monitor functionality
+- Joystick inputs
+- Button inputs
+- Game controls
+- Electronic connections
+
+Street Fighter II Turbo was used to test the controller mapping and verify that the arcade controls worked correctly.
+
+## 📷 Build Documentation
+
+The photos in this folder show the progression of the Retrocade from its early prototypes through construction, assembly, and finishing.
+
+### Build Progression
+
+**CAD → Prototype → CNC → Assembly → Electronics → Painting → Final Machine**
