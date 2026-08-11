@@ -1,0 +1,77 @@
+# 🎮 Custom Arcade Game
+
+As part of the Retrocade project, we developed our own arcade-style game to run on our custom-built arcade machine.
+
+The game demonstrates the software side of the project and allows the Retrocade to run a game developed specifically for the system.
+
+## 🕹️ Game Overview
+
+The game is a **multi-level coin-collector game** loosely based on *Fireboy and Watergirl*.
+
+Players navigate through different levels while collecting coins and progressing through the game.
+
+The game was designed to work with the physical arcade controls on the Retrocade.
+
+## 🛠️ Development
+
+The game was originally developed using **Godot 4**.
+
+However, Godot 4 was not compatible with the environment we were using for the arcade machine. Because of this, the game was recreated using **Godot 3**.
+
+This required adapting the project to the older version of the Godot engine while maintaining the core gameplay concept.
+
+## 🎯 Features
+
+The game includes:
+
+- Multiple levels
+- Player movement
+- Coin collection
+- Level progression
+- Arcade-style gameplay
+- Compatibility with the Retrocade's physical controls
+
+## 🎮 Retrocade Integration
+
+The game runs on a **Raspberry Pi 4** integrated into the Retrocade arcade machine.
+
+The physical arcade controls allow the player to interact with the game through the same joystick and buttons used for the other games on the machine.
+
+The general system is:
+
+**Raspberry Pi 4 → Game Software → USB Encoder → Arcade Controls**
+
+The arcade joysticks and buttons are connected through encoder boards, allowing the Raspberry Pi to recognize the physical controls as USB game controllers.
+
+## 💻 Technology
+
+| Technology | Purpose |
+|---|---|
+| Godot 3 | Game engine |
+| GDScript | Game programming |
+| Raspberry Pi 4 | Arcade computer |
+| Arcade joystick | Player input |
+| Arcade buttons | Player input |
+
+## 🔄 Development Challenge
+
+One of the main challenges during development was compatibility between Godot versions.
+
+The original game was created in **Godot 4**, but the arcade environment required **Godot 3**.
+
+Rather than abandoning the game, we recreated it using the compatible version of the engine. This allowed us to preserve the original concept while adapting the implementation to the available hardware and software environment.
+
+## 🧩 Game Structure
+
+The game is organized around multiple levels, with each level providing a different environment for the player to navigate and collect coins.
+
+Future development could expand the number of levels, introduce additional mechanics, and make greater use of the arcade machine's physical controls.
+
+## 📁 Project Structure
+game/
+│
+├── project.godot
+├── scenes/
+├── scripts/
+├── assets/
+└── ...
