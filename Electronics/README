@@ -1,0 +1,35 @@
+# Electronics
+
+The Retrocade uses a Raspberry Pi 4 running RetroPie as the main computing system. The electronics connect the physical arcade controls to the games while providing video output through a monitor.
+
+## Main Components
+
+| Component | Purpose |
+|---|---|
+| Raspberry Pi 4 | Main computer |
+| RetroPie | Arcade emulation system |
+| Arcade joysticks | Player movement/input |
+| Push buttons | Game controls |
+| Encoder boards | Convert arcade controls into USB inputs |
+| 19" monitor | Game display |
+| HDMI cable | Video connection |
+| Power supply | Powers the system |
+
+## System Architecture
+
+
+                    Raspberry Pi 4
+                         │
+                     RetroPie
+                         │
+          ┌──────────────┼──────────────┐
+          │              │              │
+          ▼              ▼              ▼
+     Player 1        Player 2        Monitor
+      Controls        Controls        (HDMI)
+          │              │
+          ▼              ▼
+      Joystick +      Joystick +
+       Buttons         Buttons
+          │              │
+          └────── Encoder Boards ──────┘
