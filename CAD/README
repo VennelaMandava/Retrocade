@@ -1,0 +1,82 @@
+# CAD & Cabinet Design
+
+The Retrocade cabinet was designed in Autodesk Fusion before being manufactured using CNC machining. The goal of the CAD process was to create a structurally stable cabinet while maintaining an ergonomic and authentic arcade design.
+
+## Design Goals
+
+The cabinet design focused on:
+
+- Two-player functionality
+- Comfortable joystick and button placement
+- Appropriate control-panel height
+- Monitor support
+- Structural stability
+- Efficient use of plywood
+- Authentic arcade aesthetics
+
+## Design Process
+
+Our cabinet design process followed several stages:
+
+1. Create the cabinet design in Autodesk Fusion
+2. Add accurate dimensions, joints, and component locations
+3. Submit the CAD design for approval
+4. Revise the design based on feedback
+5. Create a scaled-down cabinet prototype
+6. Create a full-sized control-panel prototype
+7. Test the prototypes
+8. Revise the CAD model when necessary
+9. Generate CNC toolpaths
+10. Manufacture the final cabinet
+
+## Prototyping
+
+Before manufacturing the final cabinet, we created two types of prototypes.
+
+### Scaled Cabinet Prototype
+
+The smaller cabinet prototype was used to test:
+
+- Joint accuracy
+- Structural stability
+- Overall cabinet construction
+
+### Full-Sized Control Panel Prototype
+
+The full-sized control-panel prototype was used to test:
+
+- Joystick placement
+- Button placement
+- Component fit
+- Player comfort
+- Two-player spacing
+
+If a problem was found during testing, we returned to the CAD model and revised the design.
+
+## Manufacturing
+
+After the CAD design and prototypes were validated, the final cabinet components were cut from plywood using a CNC machine.
+
+The pieces were then:
+
+- Sanded
+- Primed
+- Painted
+- Assembled
+
+A support frame was also incorporated into the back of the cabinet to support the monitor.
+
+## Files
+
+This folder contains CAD files, technical drawings, and prototype documentation for the Retrocade cabinet.
+
+### Project Files
+
+- Autodesk Fusion CAD files
+- Cabinet drawings
+- Control-panel designs
+- Prototype documentation
+
+## Design Philosophy
+
+The final design attempts to balance the nostalgic appearance of an arcade machine with modern considerations such as two-player functionality, ergonomics, cost, and manufacturability.
